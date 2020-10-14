@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7A1616"
+    android:backgroundTint="#801717"
+    android:backgroundTintMode="screen"
+
+    android:textAlignment="center"
+    app:barrierMargin="5dp"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".FinalEmail"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_to"
+        android:text="Send To"
+        android:padding="12dp"
+        android:background="@drawable/bg_round"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_subject"
+        android:text="Subject"
+        android:padding="12dp"
+        android:background="@drawable/bg_round"/>
+
+    <TextView
+        android:id="@+id/et_message"
+        android:layout_width="match_parent"
+        android:layout_height="514dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_round"
+        android:gravity="top"
+        android:padding="12dp"
+        android:text="Message" />
+    <Button
+        android:id="@+id/bt_send"
+        android:layout_width="387dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        android:text="SEND" />
+
+
+</LinearLayout>

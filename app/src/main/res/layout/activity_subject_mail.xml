@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7A1616"
+    android:backgroundTint="#801717"
+    android:backgroundTintMode="screen"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    app:barrierMargin="5dp"
+    tools:context=".SubjectMail">
+
+    <ImageView
+        android:src="@drawable/next"
+        android:id="@+id/txt_next2"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/et_sub"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="214dp"
+        android:text="CLICK ON BOTTOM OF SCREEN TO GO TO ENTER THE Subject AND SPEAK"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#270401"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <ImageView
+        android:id="@+id/txt_speak2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mic" />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7A1616"
+    android:backgroundTint="#801717"
+    android:backgroundTintMode="screen"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    app:barrierMargin="5dp"
+
+    tools:context=".Page3">
+
+
+    <ImageView
+        android:src="@drawable/compose"
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="258dp" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="243dp"
+        android:text="CLICK ON TOP OF SCREEN TO GO TO COMPOSE AND DOWN OF SCREEN TO GO TO INBOX"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#270401"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:src="@drawable/inbox"
+        android:id="@+id/t3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
